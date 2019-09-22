@@ -10,3 +10,7 @@ The user_id is a string that contains only alphanumeric characters with hyphens 
 fields -- user_id, rating, and the movie_title -- are separated by a single tab character (\t).
 
 Please run <lastname>_<firstname>_collabFilter.py
+  
+The Ratings Prediction program should output a list of k items to recommend to the user specified as an input argument. It  should identify the k items with the highest predicted rating for this user. Be sure not to include any items that the user has already rated.
+
+Please run python <lastname>_<firstname>_collabFilter.py <ratingsFileName> <user> <n> <k>
